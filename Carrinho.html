@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="css/Carrinho.css">
+    <script src="https://kit.fontawesome.com/4f527d18db.js" crossorigin="anonymous"></script>   
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="Index.html"><img id="logo" src="Imagem/logo.png" alt=""></a>
+            
+        </div>
+        <div>
+            <form >
+                <input type="search" placeholder="Pesquisar">
+           </form>
+        </div>
+        <div>
+            <button class="myButton">Pesquisar</button>
+        </div>
+       
+        <nav>
+            <div>   
+                <ul>
+                    <a href="Cadastro.html"><li onclick="cadastrar()" >Cadastrar</li></a>  
+                    <a href="Carrinho.html">
+                        <li onclick="Carrinho()"> 
+                            <i class="fas fa-shopping-cart"></i>
+                            Carrinho</li>
+                    </a>
+                    
+                    <a href="Contato.html">
+                        <li onclick="contato()">
+                            <i class="fas fa-phone-alt"></i>
+                            Contato</li>
+                    </a>
+                </ul>
+            </div>
+          
+        </nav>
+    </header>
+
+    <main>
+      <div class="divconteudo">
+            
+        <h1>Carrinho</h1>
+            <table >
+                 <head>
+                     <tr>
+                        <th class="id">ID</th>
+                         <th>Destino</th>
+                          <th>Check in</th>
+                            <th>Check out</th>
+                            <th>Qtd. de pessoas</th>
+                            <th>Preço R$</th>
+                            <th class="deletar"></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Porto de galinha</td>
+                                <td>30/10/2021</td>
+                                <td>7/11/2021</td>
+                                <td>3</td>
+                                <td>5938.87</td>
+                                <td class="excluir"> <i class="fas fa-window-close"></i> </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Gramado</td>
+                                <td>17/12/2021</td>
+                                <td>27/12/2021</td>
+                                <td>4</td>
+                                <td>6353.38</td>
+                                <td class="excluir"> <i class="fas fa-window-close"></i> </td>
+                             </tr>
+                        </tbody>
+                       <tfoot>
+                            <tr>
+                                <td colspan="7" class="links">
+                                    <p class="total">Total:</p>
+                                    <p class="preco"> R$ 12.292,25</p> 
+                                </td>
+                           </tr>
+                        </tfoot>
+                </table>
+
+                <button class="Button"> <i class="fas fa-shopping-cart"></i> Comprar</button>
+        </div>
+             <img src="/Imagem/formadepagamento.jpg" alt="">    
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

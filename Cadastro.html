@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/Cadastro.css">
+    <script src="https://kit.fontawesome.com/4f527d18db.js" crossorigin="anonymous"></script> 
+    
+</head>
+<body>
+    <header>
+        <div>
+            <a href="Index.html"><img id="logo" src="Imagem/logo.png" alt=""></a>
+            
+        </div>
+        <div>
+            <form >
+                <input type="search" placeholder="Pesquisar">
+           </form>
+        </div>
+        <div>
+            <button class="myButton">Pesquisar</button>
+        </div>
+       
+        <nav>
+            <div>   
+                <ul>
+                    <a href="Cadastro.html"><li onclick="cadastrar()" >Cadastrar</li></a>  
+                    <a href="Carrinho.html">
+                        <li onclick="Carrinho()"> 
+                            <i class="fas fa-shopping-cart"></i>
+                            Carrinho</li>
+                    </a>
+                    <a href="Contato.html">
+                        <li onclick="contato()">
+                            <i class="fas fa-phone-alt"></i>
+                            Contato</li>
+                    </a>
+                </ul>
+            </div>
+          
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="divMain">
+           <div class="divCadastro">
+               <h1>Cadastrar</h1>
+            <form>
+                <div class="divlabel"style="width: 60%;" ><label >Nome:</label></div>
+                <input type="text" /> <br />
+        
+                <div class="divlabel" style="width: 68%;"><label >Sobrenome</label></div>
+                <input type="text" /> <br />
+        
+                <div class="divlabel" style="width: 58%;"><label>Email:</label></div>
+                <input type="email" /> <br />
+        
+                <div class="divlabel"style="width: 60%;"><label>Senha:</label></div>
+                <input type="password" /> <br />
+    
+                <div class="divlabel" style="width: 89%;"><label>Confirmação de senha:</label></div>
+                <input type="password" /> <br />
+                
+                <div class="divbuttom">
+                    <input type="submit" value="Cadastrar" />
+                    <button class="Button">Cancelar</button>
+                </div>
+           </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>

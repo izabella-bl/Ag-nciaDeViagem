@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/Index.css">
+    <script src="https://kit.fontawesome.com/4f527d18db.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <header>
+        <div class="divLogo">
+            <img id="logo" src="Imagem/Logo2.png" alt="">
+
+        </div>
+        <div class="divPesquisa"> 
+            <form >
+                <Label style="font-size: 30px;">Bem Vindo(a)! Travel Agency tem os melhores pacotes de viagem.</Label></br>
+                <label style="font-size: 20px;">Pacotes até 60% de desconto. Aproveite!</label></br>
+                <input type="text" placeholder="Origem" class="InputText">
+                <i class="fas fa-exchange-alt icone"></i>
+                <input type="text" placeholder="Destino" class="InputText"></br>
+                <input type="text" classe="InputData" placeholder="Ida" onfocusin="(this.type='date')" onfocusout="(this.type='text')">
+                <b class="icone" style="font-size: 40px;">-</b>
+                <input type="text" placeholder="Volta"type="text" onfocusin="(this.type='date')" onfocusout="(this.type='text')">
+                <input type="number" placeholder=" N° de Passageiros">
+
+                <button class="myButton">Pesquisar</button>
+            
+           </form>
+        </div>
+        
+       
+        <nav>
+            <div class="divNav">   
+                <ul>
+                    <a href="Cadastro.html"><li onclick="cadastrar()" >Cadastrar</li></a>       
+                    <a href="Carrinho.html">
+                      <li onclick="Carrinho()"> 
+                          <i class="fas fa-shopping-cart"></i>
+                          Carrinho</li>
+                     </a>
+                     <a href="Contato.html">
+                      <li onclick="contato()">
+                          <i class="fas fa-phone-alt"></i>
+                          Contato</li>
+                  </a>
+                </ul>
+            </div>
+          
+        </nav>
+
+    </header>
+    
+   
+    <main>
+        <div class="divViagem">
+            <div class="divH1">
+                <h1>Conheçendo o Brasil</h1>
+            </div>
+    
+            <div class="divMainLi" >   
+                <ul>   
+                   <a href="">
+                     <div class="divLi">
+                        <li >
+                          <img src="Imagem/Natal.jfif" alt="">
+                          <h6>Natal</h6>
+                          <p class="Pmedio">Apartir de R$ 569.00</p>
+                          <p class="Ppequeno"> 1.583 acomodaçôes</p>
+                        </li>
+                      </div>
+                   </a>
+    
+                   <a href="">
+                    <div class="divLi">
+                       <li >
+                         <img src="Imagem/Gramado.jfif" alt="">
+                         <h6>Gramado</h6>
+                         <p class="Pmedio">Apartir de R$ 684.50</p>
+                         <p class="Ppequeno"> 1.203 acomodaçôes</p>
+                       </li>
+                     </div>
+                  </a>
+    
+                  <a href="">
+                    <div class="divLi">
+                       <li >
+                         <img src="Imagem/portodegalinhas.jpg" alt="">
+                         <h6>Poto de Galinhas</h6>
+                         <p class="Pmedio">Apartir de R$ 736.42</p>
+                         <p class="Ppequeno"> 1.406 acomodaçôes</p>
+                       </li>
+                     </div>
+                  </a>
+    
+                  <a href="">
+                    <div class="divLi">
+                       <li >
+                         <img src="Imagem/Buzios.jpg" alt="">
+                         <h6>Búzios</h6>
+                         <p class="Pmedio">Apartir de R$ 757.88</p>
+                         <p class="Ppequeno"> 1.535 acomodaçôes</p>
+                       </li>
+                     </div>
+                  </a>
+                    
+                </ul>
+            </div>
+            <button class="ButtonMostrar">Mostrar Mais</button>
+        </div>
+
+        <div class="divViagem">
+            <div class="divH1">
+                <h1>Conheçendo o Mundo</h1>
+            </div>
+    
+            <div class="divMainLi" >   
+                <ul>   
+                   <a href="" >
+                     <div class="divLi">
+                        <li >
+                          <img src="Imagem/Miami.jpg" alt="">
+                          <h6>Miami</h6>
+                          <p class="Pmedio">Apartir de R$ 2485.84</p>
+                          <p class="Ppequeno"> 2.948 acomodaçôes</p>
+                        </li>
+                      </div>
+                   </a>
+    
+                   <a href="">
+                    <div class="divLi">
+                       <li >
+                         <img src="Imagem/BuenosAires.jpg" alt="">
+                         <h6>Buenos Aires</h6>
+                         <p class="Pmedio">Apartir de R$ 1405.93</p>
+                         <p class="Ppequeno"> 1.937 acomodaçôes</p>
+                       </li>
+                     </div>
+                  </a>
+    
+                  <a href="">
+                    <div class="divLi">
+                       <li >
+                         <img src="Imagem/cancun.jpg" alt="">
+                         <h6>Cancún</h6>
+                         <p class="Pmedio">Apartir de R$ 2747.98</p>
+                         <p class="Ppequeno"> 2.817 acomodaçôes</p>
+                       </li>
+                     </div>
+                  </a>
+    
+                  <a href="">
+                    <div class="divLi">
+                       <li >
+                         <img src="Imagem/londres.jpg" alt="">
+                         <h6>Londres</h6>
+                         <p class="Pmedio">Apartir de R$ 3048.84</p>
+                         <p class="Ppequeno"> 3.472 acomodaçôes</p>
+                       </li>
+                     </div>
+                  </a>
+                    
+                </ul>
+              
+            </div>
+            <button class="ButtonMostrar">Mostrar Mais</button>
+        </div>
+       
+       
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
